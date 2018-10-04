@@ -1,0 +1,140 @@
+* {
+    font-family: 'PT Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+p {}
+
+
+
+/* header */
+
+/* main */
+
+/* sections */
+
+header {
+    height: 7em;
+    width: 100vw;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, .15);
+    background: #fff;
+}
+
+header section img {
+    height: 6em;
+    width: 6em;
+    margin-top: 0.5em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#image img {
+    max-width: 100%;
+    margin-top: 7em;
+    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, .15);
+}
+
+i {
+    top: 0.8em;
+    left: 0.5em;
+    position: absolute;
+    color: #01D66C;
+}
+
+
+
+section:nth-of-type() {
+    margin-top: 0;
+}
+
+button: {}
+
+main {
+    margin-top: 3em;
+}
+
+main > img {
+    height: 50%;
+    width: 25%;
+    margin-left: 3em;
+    /*    /float: left;*/
+    border-radius: 3em;
+
+}
+
+main section {
+    width: 30%;
+    /*    float: left;*/
+    margin-left: 3em;
+    overflow: auto;
+}
+
+main section h2 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+main button {
+    /*    float: left;*/
+    display: inline-block;
+    vertical-align: middle;
+    border: 7px solid #01D66C;
+    border-radius: 1.25em;
+    margin-top: 1.6em;
+    margin-left: 2em;
+    font-size: 3em;
+    padding: 0.4em;
+    color: #01D66C;
+    background-color: white;
+    font-weight: 800;
+}
+
+
+section div a {
+    margin-top: 0;
+}
+
+section p {
+    margin: 2.5em;
+}
+
+section div {
+    overflow-x: scroll;
+    width: 100vw;
+    display: inline-flex;
+}
+
+section div a img {
+    width: 15em;
+    height: 15em;
+    background: rgba(0, 0, 100, 0.5);
+    margin: .5em;
+    margin-left: 2.5em;
+
+}
+
+section div article {
+    margin: 1em;
+    flex-shrink: 0;
+}
+
+section div a article img {
+    height: 10em;
+    width: 10em;
+    flex-shrink: 0;
+    border-radius: 1.5em;
+    cursor: pointer;
+}
+
+section h2 {
+    margin-left: 2.5em;
+}
